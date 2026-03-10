@@ -1,0 +1,33 @@
+{
+  "name": "urdb-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the URDB product integrity database — search products, check integrity scores, and find enshittification events.",
+  "type": "module",
+  "bin": {
+    "urdb-mcp": "./index.ts"
+  },
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "keywords": [
+    "mcp",
+    "urdb",
+    "product-integrity",
+    "enshittification",
+    "consumer-rights",
+    "claude"
+  ],
+  "homepage": "https://urdb.io/api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urdb-io/mcp"
+  },
+  "license": "MIT"
+}
