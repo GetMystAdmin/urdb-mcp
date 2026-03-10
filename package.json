@@ -29,5 +29,6 @@
     "type": "git",
     "url": "https://github.com/urdb-io/mcp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "mcpName": "io.github.GetMystAdmin/urdb"
 }
