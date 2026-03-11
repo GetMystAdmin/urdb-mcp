@@ -1,5 +1,9 @@
 # urdb-mcp
 
+<a href="https://glama.ai/mcp/servers/GetMystAdmin/urdb-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/GetMystAdmin/urdb-mcp/badge" />
+</a>
+
 MCP server for [URDB](https://urdb.io) — the product integrity database. Connect Claude Desktop (or any MCP-compatible AI) to real, sourced data on product downgrades, shrinkflation, warranty cuts, and enshittification.
 
 ## Tools

@@ -1,8 +1,6 @@
 {
-  "$schema": "https://glama.ai/mcp/servers/schema.json",
-  "name": "URDB MCP",
-  "description": "Search URDB's product integrity database for integrity scores, enshittification events, warranty cuts, and material downgrades across consumer products.",
-  "license": "MIT",
-  "homepage": "https://urdb.io/api",
-  "repository": "https://github.com/GetMystAdmin/urdb-mcp"
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "GetMystAdmin"
+  ]
 }
