@@ -1,0 +1,4 @@
+.mcpregistry_*
+.gitignore
+tsconfig.json
+server.json
