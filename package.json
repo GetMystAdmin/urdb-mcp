@@ -4,7 +4,7 @@
   "description": "MCP server for the URDB product integrity database — search products, check integrity scores, and find enshittification events.",
   "type": "module",
   "bin": {
-    "urdb-mcp": "./index.ts"
+    "urdb-mcp": "index.ts"
   },
   "scripts": {
     "start": "tsx index.ts"
@@ -27,8 +27,8 @@
   "homepage": "https://urdb.io/api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/urdb-io/mcp"
+    "url": "git+https://github.com/urdb-io/mcp.git"
   },
   "license": "MIT",
-  "mcpName": "io.github.GetMystAdmin/urdb"
+  "mcpName": "io.github.GetMystAdmin/urdb-mcp"
 }

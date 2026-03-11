@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.GetMystAdmin/urdb-mcp",
+  "description": "Search URDB for product integrity scores, enshittification events, and change tracking.",
+  "repository": {
+    "url": "https://github.com/GetMystAdmin/urdb-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "urdb-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "URDB API key — get one free at https://urdb.io/settings/api-keys",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "URDB_API_KEY"
+        }
+      ]
+    }
+  ]
+}
